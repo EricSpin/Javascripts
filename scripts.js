@@ -50,7 +50,14 @@ console.log("TA-DA!!!Su clave es:" +  clave.toUpperCase());
 console.log("El Valor original de la clave es:"+ clave);*/
 /*console.log("Fin de programa");*/
 
-console.log("Inicio del Programa");
+/*console.log("Inicio del Programa");
 var dado = Math.floor(Math.random() * 6) + 1;
 alert("Dado dice:" + dado);
+console.log("fin del Programa");*/
+
+
+console.log("Inicio del Programa");
+var num1 = prompt("Ingrese numero")
+var num2 = Math.floor(Math.random() * num1) + 1;
+alert("Numero Ingresado:" + num2);
 console.log("fin del Programa");
