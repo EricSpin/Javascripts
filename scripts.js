@@ -141,11 +141,39 @@ tiraDados();*/
 	alert(mensaje);
 	saludo();*/
 
-	var num="hgaf";
+/*	var num="hgaf";
 	if(isNaN(num))
 		{ throw new Error ("No es un numero valido"); }
 		else{
 			num = num*0.5;
-		}
+		}*/
+console.log("Inicio del programa");
+
+function numeroAlAzarEntreLimites(limiteInferior, limiteSuperior){
+
+
+	if(isNaN(limiteInferior) || isNaN(limiteSuperior))
+	{
+		throw new Error("Valor ingresado no corresponde a un numero");;
+
+	}
+	var num = Math.round(Math.random()*(limiteSuperior-limiteInferior))+limiteInferior;
+	
+	return num;
+
+
+}
+var limiteSuperior = prompt("Ingrese un limite superior para el primer numero");
+var limiteInferior = prompt("Ingrese un limite superior para el primer numero");
+alert("Su numero al Azar es:" + numeroAlAzarEntreLimites(parseInt(limiteInferior), parseInt(limiteSuperior)));
+console.log("Fin del Programa");
+
+var contador = 0;
+while(contador<10){
+	var randomico = numeroAlAzarEntreLimites(parseInt(limiteInferior), parseInt(limiteSuperior));
+	document.write(randomico + " ");
+	contador++;
+}
+
 
 	
