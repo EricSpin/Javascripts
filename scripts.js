@@ -79,6 +79,8 @@ else if(num <= num1){
 document.write("<h1>Respuesta Incorrecta, Intenta nuevamente con un valor mayor</h1>");
 }
 else{
+
+
 document.write("<h1>La respuesta es menor</h1>");
 }
 console.log("fin del Programa");*/
@@ -90,12 +92,60 @@ function saludame(){
 saludame();
 */
 
-function tiraDados(){
+/*function tiraDados(){
 	var dado = Math.floor(Math.random()*6)+1;
-	alert(dado);
+	return dado;
 
 }
 alert("Tiramos 3 dados: ");
+alert("El Dado dice:" + tiraDados());
+var multiplo = 2 + tiraDados();
+alert("El multiplo de bonus es:" + multiplo);*/
+/*tiraDados();
 tiraDados();
-tiraDados();
-tiraDados();
+tiraDados();*/
+
+/*Argumentos en la funciones*/
+/*function numeroAlAzarHastaLimite(limite) {
+	var num = Math.floor(Math.random() * limite ) + 1;
+	return num;
+}
+	var numAzar = numeroAlAzarHastaLimite(100);
+	alert("Numero al Azar = " + numAzar);*/
+
+
+/*ejercicio*/
+/**function max(num, num2) {
+
+	if (num<num2){
+		return num;
+		}
+		else(num>num2){
+		return num2;
+		}
+	
+	
+}
+	
+
+	var numAzar = max(100);
+	alert("Numero al Azar = " + numAzar);*/
+	
+/*
+	function saludo(){
+		var mensaje = "Hola a todos";
+		alert(mensaje);}
+
+	var mensaje = "Chao";
+	saludo();
+	alert(mensaje);
+	saludo();*/
+
+	var num="hgaf";
+	if(isNaN(num))
+		{ throw new Error ("No es un numero valido"); }
+		else{
+			num = num*0.5;
+		}
+
+	
