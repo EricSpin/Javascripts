@@ -56,8 +56,32 @@ alert("Dado dice:" + dado);
 console.log("fin del Programa");*/
 
 
-console.log("Inicio del Programa");
+/*console.log("Inicio del Programa");
 var num1 = prompt("Ingrese numero")
 var num2 = Math.floor(Math.random() * num1) + 1;
 alert("Numero Ingresado:" + num2);
+console.log("fin del Programa");*/
+
+
+
+/*codigo utilizando else if "adivina el numero"*/
+console.log("Inicio del Programa");
+document.write("<h1>Adivina el numero</h1>");
+var num = prompt("Ingrese numero del 1 al 10");
+var num1 = Math.floor(Math.random( ) * 10) + 1;
+
+
+if(num == num1) {
+
+document.write("<h1>Respuesta correcta </h1>");
+}
+else if(num <= num1){
+document.write("<h1>Respuesta Incorrecta, Intenta nuevamente con un valor mayor</h1>");
+}
+
+else{
+document.write("<h1>La respuesta es menor</h1>");
+}
+
+
 console.log("fin del Programa");
