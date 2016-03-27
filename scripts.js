@@ -21,7 +21,7 @@ console.log("TA-DA!!!Su clave es:" +  clave.toUpperCase());
 console.log("El Valor original de la clave es:"+ clave);
 console.log("Fin de programa");*/
 
-console.log("Inicio del Programa");
+/*console.log("Inicio del Programa");
 var preguntas = 3;
 var preguntasFaltantes = "Quedan" + preguntas + "preguntas.";
 alert("Este es el juego del cuenta cuentos. Sigue las instrucciones.");
@@ -34,7 +34,7 @@ preguntasFaltantes = "Quedan" + preguntas + "preguntas.";
 var verbo1 = prompt("Ingrese un Verbo."+preguntasFaltantes);
 var cuento = "El" + adjetivo1 + " " + sustantivo1 + "queria" + verbo1 + "";
 document.write("<h1>Cuento</h1><p>" + cuento + "</p>");
-console.log("Programa Completo");
+console.log("Programa Completo");*/
 
 
 
@@ -49,3 +49,8 @@ document.write("<h2>pueden vivir " + frase3 +" de razas " + frase2 +" El "+ fras
 console.log("TA-DA!!!Su clave es:" +  clave.toUpperCase());
 console.log("El Valor original de la clave es:"+ clave);*/
 /*console.log("Fin de programa");*/
+
+console.log("Inicio del Programa");
+var dado = Math.floor(Math.random() * 6) + 1;
+alert("Dado dice:" + dado);
+console.log("fin del Programa");
