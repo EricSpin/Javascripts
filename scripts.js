@@ -147,7 +147,7 @@ tiraDados();*/
 		else{
 			num = num*0.5;
 		}*/
-console.log("Inicio del programa");
+/*console.log("Inicio del programa");
 
 function numeroAlAzarEntreLimites(limiteInferior, limiteSuperior){
 
@@ -166,14 +166,70 @@ function numeroAlAzarEntreLimites(limiteInferior, limiteSuperior){
 var limiteSuperior = prompt("Ingrese un limite superior para el primer numero");
 var limiteInferior = prompt("Ingrese un limite superior para el primer numero");
 alert("Su numero al Azar es:" + numeroAlAzarEntreLimites(parseInt(limiteInferior), parseInt(limiteSuperior)));
-console.log("Fin del Programa");
 
-var contador = 0;
+
+/*var contador = 0;
 while(contador<10){
 	var randomico = numeroAlAzarEntreLimites(parseInt(limiteInferior), parseInt(limiteSuperior));
 	document.write(randomico + " ");
 	contador++;
-}
+}*/
 
-
+/*console.log("Fin del Programa");
 	
+var contador = 0;
+while (contador<100){
+	var randomico = numeroAlAzarEntreLimites(parseInt(limiteInferior), parseInt(limiteSuperior));
+	document.write(randomico + " ");
+	contador++;
+}*/
+
+/*console.log("Inicio del programa");
+
+function numeroAlAzarEntreLimites(limiteInferior, limiteSuperior){
+
+
+	if(isNaN(limiteInferior) || isNaN(limiteSuperior))
+	{
+		throw new Error("Valor ingresado no corresponde a un numero");;
+
+	}
+	var num = Math.round(Math.random()*(limiteSuperior-limiteInferior))+limiteInferior;
+	
+	return num;
+
+
+}
+var limiteSuperior = 100;
+var limiteInferior = 0;
+alert("Su numero al Azar es:" + numeroAlAzarEntreLimites(parseInt(limiteInferior), parseInt(limiteSuperior)));
+*/
+
+/*var contador = 0;
+while(contador<100){
+	var randomico = numeroAlAzarEntreLimites(parseInt(limiteInferior), parseInt(limiteSuperior));
+	document.write(randomico + " ");
+	contador++;
+}*/
+console.log("Inicio del Programa");
+function numAzar(){
+	var num=Math.floor(Math.random()*100)+1;
+	return num;
+}
+var num2 = numAzar();	
+var contador = 0;
+while (true)
+{
+	contador=contador+1;
+	num3=numAzar();
+	if (num2 === num3){
+ 	
+ 	alert("El Primer numero es:" + num2);
+ 	 alert("El numero Adivinado es:" + num3);
+ 	 break;
+ 	}
+	
+	}
+		alert("los Intentos fueron:"+contador);
+		
+console.log("Fin del Programa");
