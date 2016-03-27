@@ -64,7 +64,7 @@ console.log("fin del Programa");*/
 
 
 
-/*codigo utilizando else if "adivina el numero"*/
+/*codigo utilizando else if "adivina el numero"
 console.log("Inicio del Programa");
 document.write("<h1>Adivina el numero</h1>");
 var num = prompt("Ingrese numero del 1 al 10");
@@ -78,10 +78,24 @@ document.write("<h1>Respuesta correcta </h1>");
 else if(num <= num1){
 document.write("<h1>Respuesta Incorrecta, Intenta nuevamente con un valor mayor</h1>");
 }
-
 else{
 document.write("<h1>La respuesta es menor</h1>");
 }
+console.log("fin del Programa");*/
 
+/*
+function saludame(){
+	alert("Hola Erick!");
+}
+saludame();
+*/
 
-console.log("fin del Programa");
+function tiraDados(){
+	var dado = Math.floor(Math.random()*6)+1;
+	alert(dado);
+
+}
+alert("Tiramos 3 dados: ");
+tiraDados();
+tiraDados();
+tiraDados();
