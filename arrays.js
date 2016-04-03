@@ -22,7 +22,7 @@ playList.push("Soneros de bailadores");
 
 printList(playList);*/
 
-var productosDisponibles=["Queso","Carne","Arroz"];
+/*var productosDisponibles=["Queso","Carne","Arroz"];
  
 while(true){
  var product = prompt("Ingrese SALIR para salir o busque el producto que desee");
@@ -52,9 +52,30 @@ while(true){
  
 }
 }
-}
+}*/
  	
+/*array dimesionales , matriz*/
+
+function printListReproduccion(list){
+	var listHTML = '<ol>';
+	for (var i=0; i<list.length; i += 1){
+		listHTML+='<li>Tema:  	' + list[i][0] + '.Por  	' + list[i][1];
+	}
+	listHTML+='<ol>';
+	print(listHTML);
+}
+function print(html){
+	document.write(html);
+}
 
 
+var playList=[];
+playList.push(["Strangers in the nigth","FRank Sinatra"]);
+playList.push(["Mi conejito era tan bandidon","Los COnquistadores"]);
+playList.push(["Borro Cassette", "Maluma"]);
+playList.push(["The girl from Ipanema","skgskg"]);
+playList.push(["Soneros de bailadores","akjhaslhsalh"]);
+
+printListReproduccion(playList);
 
 
