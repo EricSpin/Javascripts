@@ -211,7 +211,9 @@ while(contador<100){
 	document.write(randomico + " ");
 	contador++;
 }*/
-console.log("Inicio del Programa");
+
+
+/*console.log("Inicio del Programa");
 function numAzar(){
 	var num=Math.floor(Math.random()*100)+1;
 	return num;
@@ -232,4 +234,30 @@ while (true)
 	}
 		alert("los Intentos fueron:"+contador);
 		
-console.log("Fin del Programa");
+console.log("Fin del Programa");*/
+
+
+/*console.log("Inicio del programa");
+var html='';
+for (var i=1;i<=10;i++){
+	html += "<div>" + i + "</div>";
+}
+document.write(html);
+console.log("Programa completado");*/
+
+/*Arreglos*/
+/*var numeros=[1,2,3,4];
+numeros[numeros.length]=5;*/
+
+/*var deportes =["futbol","tennis","Volley"];
+deportes.push("Judo","atletismo","boxeo");
+deportes.unshift("natacion");*/
+
+console.log("inicio del programa");
+var ordenPedido=['item','item2','item3','item4'];
+
+var envio = ordenPedido.shift();
+
+var cancelado = ordenPedido.pop();
+console.log("fin del programa");
+
